@@ -1,0 +1,22 @@
+// Practica 8 
+// Fecha de entrega: 30/11/2020             Morales Salinas Eduardo
+// Bibliotecas 
+#include<stdio.h>
+int main() {
+	int a,b,c;
+	printf("Ingresa la primer cantidad");
+	scanf("%f" ,&a);
+	printf("Ingresa la segunda cantidad");
+	scanf("%f" ,&b);
+	printf("Ingresa la tercera cantidad");
+	scanf("%F" ,&c);
+	if(a>b && a>c) {
+		printf("El mayor es a ");
+	}
+    if(b>c && b>a){
+    	printf("el mayor es b");
+	}
+	else if (c>a && c>b){
+		printf("El mayor es c");
+	}
+}

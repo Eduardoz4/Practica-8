@@ -1,0 +1,16 @@
+// Practica 8 
+// Fceha de entrega:       Morales Salinas Eduardo 
+// Bibliotecas
+#include<stdio.h>
+int main() 
+{
+  float n;
+  printf("Ingrese el numero que desea evaluar");
+  scanf("%f", &n);
+  if(n<0){
+  	printf("Tu numero es negativo");
+  }
+  else{
+  	printf("tu numero es positivo");
+  }
+}

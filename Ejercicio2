@@ -1,0 +1,19 @@
+// Practica 8 
+// Fecha de entrega: 30/11/2020             Morales Salinas Eduardo
+// Bibliotecas 
+#include<stdio.h>
+// Funcion 
+int main() {
+	int l,p;
+	printf("ingrese la cantidad de lapices que va a comprar");
+	scanf("%d", l);
+	if (l>=1000){
+		p=l*85;
+		printf("el precio total es de:%i\n", p);
+	}
+	else {
+		p=l*90;
+		printf("el precio total es de:%i\n", p);
+	}
+	
+}

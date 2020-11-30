@@ -1,5 +1,6 @@
 // Practica 8 
 // Fecha de entrega: 30/11/2020             Morales Salinas Eduardo
+// Se debe de calcular lo que debe de pagar el cliente por un numero de lapices 
 // Bibliotecas 
 #include<stdio.h>
 // Funcion 

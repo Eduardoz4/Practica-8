@@ -1,5 +1,6 @@
 // Practica 8 
 // Fceha de entrega:       Morales Salinas Eduardo 
+// Se debe determinar si un numero es positivo o negativo 
 // Bibliotecas
 #include<stdio.h>
 int main() 

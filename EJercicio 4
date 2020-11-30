@@ -1,5 +1,6 @@
 // Practica 8 
 // Fecha de entrega: 30/11/2020             Morales Salinas Eduardo
+// Determinar la mayor de 3 cantidades 
 // Bibliotecas 
 #include<stdio.h>
 int main() {

@@ -1,0 +1,23 @@
+// Practica 8 
+// Fecha de entrega: 30/11/2020             Morales Salinas Eduardo
+// Calcular el costo de los trajes dependiendo de su precio y su determinado descuento 
+// Bibliotecas
+#include<stdio.h>
+// Funcion 
+int main(){
+	int c;
+	float p,t;
+	printf("ingrese el costo del traje");
+	scanf("%i", &c);
+	if(c>2500){
+		p=15*c/100;
+		t=c-p;
+		printf("El precio con descuento es de:%f", t);
+	}
+		else {
+			p=8*c/100;
+			t=c-p;
+			printf("El precio con descuento es de:%f", t);
+		}
+	
+}

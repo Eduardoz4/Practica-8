@@ -1,0 +1,27 @@
+// Practica 8 
+// Fecha de entrega: 30/11/2020             Morales Salinas Eduardo
+// Se debe de calcular el costo por un viaje en autobus dependiendo del numero de alumnos 
+// Bibliotecas
+#include<stdio.h>
+//Funcion 
+int main(){
+	int a,d;
+	printf("Ingrese el numero de alumnos");
+	scanf("%i", &a);
+	if (a>=100){
+		d=a*65;
+		printf("El costo por alumno es de:%i", d);
+	}
+	if(a<=99 && a>=50){
+		d=a*70;
+		printf("El costo por alumno es de:%i", d);
+	}
+		if (a<=49 && a>=30){
+			d=a*95;
+			printf("El costo por alumno es de:%i", d);
+		}
+		 if (a<30){
+			printf("El costo total por el autobus es de $4000");
+		}
+	
+}
